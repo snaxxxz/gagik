@@ -1,0 +1,390 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #ffffff;
+}
+header{
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	margin: 0px 20px 0px 20px;
+}
+@font-face {
+	font-family: "Nunito";
+	src: url(/Шрифты/Nunito/Nunito-VariableFont_wght.ttf);
+	margin: 0 auto;
+}
+.logo{
+	width: 45px;
+	height: 45px;
+	margin-right: 130px;
+}
+.nav-menu{
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+	justify-content: center;
+}
+.nav-item {
+  margin-right: 30px;
+}
+
+/* Стили для ссылок */
+.nav-item a {
+	font-family: "Nunito";
+  display: block; /* Занимает всю область li для кликабельности */
+  font-size: 19px;
+	color: #333; /* Цвет текста (темно-серый) */
+  text-decoration: none; /* Убираем подчеркивание */
+  padding: 10px 15px; /* Отступы внутри ссылки */
+  border-radius: 15px; /* Скругление углов */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Плавность */
+}
+
+/* Стили при наведении */
+.nav-item a:hover {
+  background-color: #222; /* Темно-серый фон */
+  color: #fff; /* Белый цвет текста */
+}
+
+/* Дополнительные стили (активная ссылка) */
+.nav-item a:active {
+  background-color: #111; /* Еще более темный серый */
+}
+
+/* Альтернативный стиль: подчеркивание снизу */
+.nav-item a.underline {
+  position: relative;
+  color: #333;
+}
+
+.nav-item a.underline::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #222; /* Темно-серый цвет подчеркивания */
+  transition: width 0.3s ease;
+}
+
+.nav-item a.underline:hover {
+  color: #222; /* Темно-серый цвет текста при наведении */
+  background-color: transparent; /* Убираем цвет фона при наведении */
+}
+
+.nav-item a.underline:hover::after {
+  width: 100%; /* Показываем подчеркивание */
+}
+
+/* main       */
+
+main{
+	margin: 0;
+	padding: 0;
+}
+.info_block{
+	background-image: url(/img/bg2.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+	margin: 0px;
+}
+.main_block-infoBlock{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	width: max-content;
+	height: 450px;
+	border-radius: 20px;
+	margin: 20px 20px 0px 20px;
+	padding: 0px 20px 0px 20px;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.644);
+}
+.l_block{
+	width: max-content;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.r_block{
+	width: 420px;
+	height: 200px;
+	border: solid 1px white;
+	border-radius: 15px;
+}
+.first__block{
+	font-family: "Nunito";
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+.address_block{
+	display: flex;
+	flex-direction: column;
+}
+.main_text-in_infoBlock{
+	color: whitesmoke;
+	font-size: 27px;
+	margin-bottom: 10px;
+}
+.address_infoBlock{
+	font-size: 20px;
+	line-height: 30px;
+	color: white;
+	
+}
+.address_infoBlock-street{
+	color: white;
+	border-bottom: solid 2px;
+	width: max-content;
+}
+.nav_block-info{
+	display: flex;
+}
+.nav_block-item{
+	font-family: "Nunito";	
+	display: block; 
+  font-size: 15px;
+	color: #dbdbdb;
+	background-color: #222;
+  text-decoration: none; 
+  padding: 10px 15px;	
+	margin: 10px 30px 0px 0px;
+  border-radius: 15px; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+.nav_block-item:hover{
+	background-color: #e4e4e4; /* Темно-серый фон */
+  color: #000000; /* Белый цвет текста */
+}
+
+.sec_block-item:first-child{
+	margin-left: 30px;
+}
+.info_compan{
+	display: flex;
+	height: max-content;
+
+}
+.teleBlock_rBlock{
+	margin: 20px;
+}
+.textTeleBlock_rBlock{
+	font-family: "Nunito";
+	color: white;
+}
+.textTeleBlock_rBlock:first-child{
+	background-image: url(/img/phone.png);
+	background-repeat: no-repeat;
+	background-size: 19px;
+	padding-left: 25px;
+	padding-bottom: 5px;
+}
+.info_working{
+	display: flex;
+	width: 420px;
+	height: 20px;
+	border-top: solid 1px white;
+	justify-content: space-around;
+	padding-top: 10px;
+}
+.text_work{
+	font-family: "Nunito";
+	color: white;
+	font-size: 15px;
+}
+.text_work:first-child{
+	padding-bottom: 3px;
+	padding-top: 5px;
+}
+.date_work{
+	padding-right: 5px;
+}
+.time_work{
+	color: #2aa6dc;
+}
+.time__work-block{
+	display: flex;
+	color: white;
+}
+.first_work{
+	display: flex;
+	flex-direction: column;
+}
+.second_work{
+	display: flex;
+	flex-direction: column;
+}
+.second_block{
+	display: flex;
+}
+.sec_block-item{
+	width: 230px;
+	height: 150px;
+	margin-right: 30px;
+	background-color: white;
+	border-radius: 20px;
+	transition: ease 500ms;
+	transform: scale(1);
+}
+.sec_block-item:nth-child(1){
+	
+}
+.sec_block-item:hover{
+	transition: ease 500ms;
+	transform: scale(1.1);
+}
+.sale{
+	position: absolute;
+	background-image: url(/img/sale.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 60px;
+	height: 60px;
+	left: 180px;
+	top: -20px;
+	transform: rotate(0deg);
+	transition: ease 1500ms;
+}
+.sec_block-item:hover .sale{
+	transform: rotate(390deg);
+	transition: ease 1500ms;
+}
+.text_second_block--item{
+	font-family: "Nunito";
+	font-weight: 700;
+	font-size: 20px;
+	color: black;
+	margin-top: 10px;
+}
+.main_sec_blockItem{
+	margin-left: 40px;
+	margin-top: 20px;
+}
+/* season_ticket */
+.season_ticket--block{
+	font-family: "Nunito";
+	font-weight: 700;
+	width: 100%;
+	margin: 40px 60px 40px 60px;
+}
+.seasonText{
+	margin-bottom: 40px;
+}
+.season_block{
+	display: flex;
+	flex-wrap: wrap;
+}
+.season_block--item{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 400px;
+	height: 280px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border: solid 1px black;
+	background: radial-gradient(circle at top right,
+	rgb(79, 167, 192) 0%,
+	rgba(255, 255, 255, 0.3) 30%, 
+	white 100%); 
+	border: 1px solid #ccc; 
+	border-radius: 10px;
+}
+.season_block--item:nth-child(2){
+	background: radial-gradient(circle at top right,
+	rgb(192, 79, 124) 0%,
+	rgba(255, 255, 255, 0.3) 30%, 
+	white 100%); 
+}
+.season_block--item:nth-child(3){
+	background: radial-gradient(circle at top right,
+	rgb(79, 192, 134),
+	rgba(255, 255, 255, 0.3) 30%, 
+	white 100%); 
+}
+.season_block--item:nth-child(4){
+	background: radial-gradient(circle at top right,
+	rgb(192, 175, 79),
+	rgba(255, 255, 255, 0.3) 30%, 
+	white 100%); 
+}
+.top_block-season{
+	display: flex;
+	width: auto;
+	justify-content: space-between;
+	margin: 30px 30px 0px 30px;
+}
+.dateBlock__season{
+	color: rgb(79, 167, 192);
+	font-size: 14px;
+	border: solid 1px rgb(79, 167, 192);
+	padding: 7px 10px 7px 10px;
+	border-radius: 15px;
+	height: max-content;
+}
+.season_block--item:nth-child(2) .top_block-season .dateBlock__season{
+	color:	rgb(192, 79, 124);
+	border: solid 1px 	rgb(192, 79, 124);
+}
+.season_block--item:nth-child(3) .top_block-season .dateBlock__season{
+	color:rgb(79, 192, 134);
+	border: solid 1px 	rgb(79, 192, 134);
+}
+.season_block--item:nth-child(4) .top_block-season .dateBlock__season{
+	color: rgb(192, 175, 79);
+	border: solid 1px 	 rgb(192, 175, 79);
+}
+.center_block-season{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 40px;
+}
+.textTopBlock_season{
+	color: black(79, 167, 192);
+	font-size: 12px;
+	padding-top: 10px;
+}
+.textCenter_block_season{
+	margin: 0px 0px 0px 30px;
+	font-weight: 700;
+}
+.textCenterBlock_season{
+	font-size: 12px;
+	margin-left: 30px;
+}
+.price_btn{
+	background-color: rgb(79, 167, 192);
+	color: black;
+	border-radius: 20px;
+	font-size: 14px;
+	width: max-content;
+	padding: 7px 10px 7px 10px;
+	margin: 0px 0px 30px 20px;
+	transition: ease 500ms;
+
+}
+.price_btn:hover{
+	color: white;
+	background-color: black;
+	transition: ease 500ms;
+	cursor: pointer;
+}
+.season_block--item:nth-child(2) .botton_block-season .price_btn{
+	background-color: rgb(192, 79, 124);
+}
+.season_block--item:nth-child(3) .botton_block-season .price_btn{
+	background-color: rgb(79, 192, 134);
+}
+.season_block--item:nth-child(4) .botton_block-season .price_btn{
+	background-color: rgb(192, 175, 79);
+}
