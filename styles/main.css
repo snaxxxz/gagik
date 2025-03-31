@@ -7,6 +7,7 @@ a{
 }
 body{
 	background-color: #ffffff;
+	max-width: max-content;
 }
 header{
 	display: flex;
@@ -274,7 +275,7 @@ main{
 .season_ticket--block{
 	font-family: "Nunito";
 	font-weight: 700;
-	width: 100%;
+	width: 1290px;
 	margin: 40px 60px 40px 60px;
 }
 .seasonText{
@@ -283,6 +284,7 @@ main{
 .season_block{
 	display: flex;
 	flex-wrap: wrap;
+	max-width: inherit;
 }
 .season_block--item{
 	display: flex;
@@ -387,4 +389,114 @@ main{
 }
 .season_block--item:nth-child(4) .botton_block-season .price_btn{
 	background-color: rgb(192, 175, 79);
+}
+.gb_liner{
+	font-family: "Nunito";
+	margin-bottom: 20px;
+	background-image: url(/img/bg3.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	width: auto;
+	height: 700px;
+}
+.mainText_bg{
+	padding-top: 40px;	
+	padding-left: 70px;
+	margin-bottom: 50px;
+	color: white;
+	font-size: 35px;
+	z-index: 2;
+	width: max-content;
+}
+.block_inBg{
+	display: flex;
+	margin-left: 120px;	
+	width: max-content;
+}
+.first_info_bg{
+	position: inherit;
+	display: flex;
+	flex-direction: column;
+	margin-right: 120px;
+}
+.text_inBlock_bg{
+	font-size: 20px;
+	color: white;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.text_inBlock_bg:last-child{
+	margin: 0;
+}
+footer{
+	font-family: "Nunito";
+	background-color: #a2a2a27b;
+	width: auto;
+	height: 300px;
+}
+.main__block-footer{
+	display: flex;
+	margin: 40px 40px 40px 40px;
+}
+.logo_footer{
+	background-image: url(/img/logo4.png);
+	background-size: contain;
+	width: 100px;
+	height: 100px;
+	margin-top: 50px;
+}
+.name_footer{
+	margin-top: 60px;
+	margin-left: 20px;
+	color: rgb(0, 0, 0);
+	font-size: 25px;
+	font-weight: 700;
+}
+.tel_footer{
+	padding-left: 20px;
+	color: rgb(0, 0, 0);
+	font-size: 17px;
+}
+.working_time-footer{
+	margin-top: 60px;
+	margin-left: 80px;
+}
+.text_work-footer{
+	color: black;
+}
+.date_work-footer{
+	color:  black;
+}
+.time_work-footer{
+	color: black;
+	padding-left: 5px
+}
+.info_block_footer{
+	display: flex;
+	margin-left: 80px;
+	margin-top: 60px;
+
+}
+.btn-footer{
+	margin-left: 50px;
+	color: black;
+	border:2px solid #000000;
+	padding: 5px 10px 5px 10px;
+  border-radius:10px;
+  color:#000000;
+  text-decoration:none;
+  cursor: pointer;
+  transition: all 0.5s;
+	width: max-content;
+	height: max-content;
+
+
+}
+.btn-footer:first-child{
+	margin-left: 40px;
+}
+.btn-footer:hover{
+  background-color: #000000;
+  color:#ffffff;  
+	transform: scale(1.1);
 }
