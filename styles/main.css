@@ -183,6 +183,10 @@ main{
 	font-family: "Nunito";
 	color: white;
 }
+.img_main{
+	width: 70px;
+	height: 70px;
+}
 .textTeleBlock_rBlock:first-child{
 	background-image: url(/img/phone.png);
 	background-repeat: no-repeat;
@@ -489,8 +493,6 @@ footer{
   transition: all 0.5s;
 	width: max-content;
 	height: max-content;
-
-
 }
 .btn-footer:first-child{
 	margin-left: 40px;

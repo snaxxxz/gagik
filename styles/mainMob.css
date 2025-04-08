@@ -1,0 +1,160 @@
+@media (max-width: 767px){
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	li{
+		list-style-type: none;
+	}
+	body{
+		margin: 0;
+		width: 390px;
+		height: max-content;
+	}
+	header{
+		width: 390px;
+		display: flex;
+		align-items: center;
+		margin: 0 auto;
+		padding: 0;
+		margin-bottom: 20px;
+	}
+	.main_block-infoBlock{
+		display: block;
+		width: 390px;
+		height: 500px;
+		margin: 10px auto;
+		padding: 0;
+	}
+	.nav-menu{
+		display: none;
+	}
+	.first__block{
+		display: flex;
+		flex-direction: column;
+	}
+	.address_block{
+		display: flex;
+		flex-direction:column;
+		width: 390px;
+		height: max-content;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+	}
+	.address_infoBlock-street{
+		border: none;
+	}
+	.main_text-in_infoBlock{
+		font-size: 20px;
+		width: 200px;
+	}
+	.l_block{
+		width: 390px;
+		height: max-content;
+		margin-bottom: 10px;
+	}
+	.nav_block-info{
+		display: none;
+	}
+	.r_block{
+		width: 375px;
+		height: 130px;
+		margin: 0 7px 0 7px;
+	}
+	.info_compan{
+
+	}
+	.textTeleBlock_rBlock{
+		width: 170px;
+		margin: 0;
+	}
+	.teleBlock_rBlock{
+		margin: 5px 5px 5px 5px;
+		width: max-content;
+
+	}
+	.textTeleBlock_rBlock{
+		width: 130px;
+		font-size: 13px;
+	}
+	.textTeleBlock_rBlock:nth-child(2){
+		width: 190px;
+	}
+	.info_working{
+		height: max-content;
+		width: 375px;
+		padding: 0px;
+	}
+	.text_work{
+		font-size: 13px;
+	}
+	.date_work{
+		font-size: 13px;
+	}
+	.time_work{
+		font-size: 13px;
+	}
+	.second_block{
+		width: 390px;
+		flex-wrap: wrap;
+	}
+	.sec_block-item{
+		width: 140px;
+		height: 100px;
+		margin-left: 20px;
+		margin-bottom: 10px;
+	}
+	.sec_block-item:nth-child(1){
+		width: 140px;
+		height: 100px;
+		margin-left: 20px;
+	}
+
+	.img_main{
+		width: 30px;
+		height: 30px;
+	}
+	.sale{
+		display: none;
+	}
+	.main_sec_blockItem{
+		margin: 10px;
+	}
+	.text_second_block--item{
+		font-size: 15px;
+	}
+	.seasonText{
+		margin-left: 20px;
+	}
+	.season_ticket--block{
+		width: 390px;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	.gb_liner{
+		width: auto;
+		height: 500px;
+	}
+	.mainText_bg{
+		margin: 0;
+		padding: 30px 0 0 10px
+	}
+	.block_inBg{
+		flex-direction: column;
+		width: 320px;
+		margin: 0 0 0 20px;
+	}
+	.first_info_bg{
+		width: 190px;
+		margin: 0;
+	}
+	.second_info_bg{
+		width: 300px;
+	}
+	.text_inBlock_bg{
+		width: max-content;
+	}
+	/* footer */
+	
+}
