@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/styles/seasonticket.css">
+	<link rel="stylesheet" href="/styles/seasonticketMob.css">
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<div class='logo'>
+			<a href="/main.html"><img style='width: 55px;' src="/img/logo4.png" alt=""></a>
+		</div>
+		<nav>
+			<ul class='nav-menu'>
+				<li class='nav-item'><a href="/main.html">главная</a></li>
+				<li class='nav-item'><a href="/sporteat.html">спортпит</a></li>
+				<li class='nav-item'><a href="/personal.html">тренера</a></li>
+				<li class='nav-item'><a href="/seasonticket.html">абонементы</a></li>
+				<li class='nav-item'><a href="/aboutUs.html">о нас</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="mainBlock">
+			<div class="season_ticket--block">
+				<h2 class='seasonText'>АБОНЕМЕНТЫ КЛУБА</h2>
+				<div class="season_block">
+						<div class="season_block--item">
+							<div class="top_block-season">
+								<div class="dateBlock__season">3 МЕСЯЦА</div>
+								<p class='textTopBlock_season'>АБОНЕМЕНТ</p>
+							</div>	
+							<div class="center_block-season">
+								<h2 class='textCenter_block_season'>БЕЗЛИМИТНЫЕ 3 МЕСЯЦА</h2>
+								<p class='textCenterBlock_season'>Часы посещений не ограничены</p>
+							</div>
+							<div class="botton_block-season">
+								<div class="price_btn">9000₽ </div>
+							</div>
+						</diV>
+						<div class="season_block--item"><div class="top_block-season">
+							<div class="dateBlock__season">6 МЕСЯЦЕВ</div>
+							<p class='textTopBlock_season'>АБОНЕМЕНТ</p>
+						</div>	
+						<div class="center_block-season">
+							<h2 class='textCenter_block_season'>БЕЗЛИМИТНЫЕ 6 МЕСЯЦА</h2>
+							<p class='textCenterBlock_season'>Часы посещений не ограничены</p>
+						</div>
+						<div class="botton_block-season">
+							<div class="price_btn">18000₽ </div>
+						</div></div>
+						<div class="season_block--item"><div class="top_block-season">
+							<div class="dateBlock__season">12 МЕСЯЦЕВ</div>
+							<p class='textTopBlock_season'>АБОНЕМЕНТ</p>
+						</div>	
+						<div class="center_block-season">
+							<h2 class='textCenter_block_season'>БЕЗЛИМИТНЫЕ 12 МЕСЯЦЕВ</h2>
+							<p class='textCenterBlock_season'>Часы посещений не ограничены</p>
+						</div>
+						<div class="botton_block-season">
+							<div class="price_btn">27000₽</div>
+						</div></div>
+						<div class="season_block--item"><div class="top_block-season">
+							<div class="dateBlock__season">12 МЕСЯЦА</div>
+							<p class='textTopBlock_season'>АБОНЕМЕНТ</p>
+						</div>	
+						<div class="center_block-season">
+							<h2 class='textCenter_block_season'>БЕЗЛИМИТНЫЕ 12 МЕСЯЦА + 90 ДНЕЙ ЗАМОРОЗКИ</h2>	
+							<p class='textCenterBlock_season'>Часы посещений не ограничены</p>
+						</div>
+						<div class="botton_block-season">
+							<div class="price_btn">41000₽</div>
+						</div>
+					</div>
+					<div class="lastMainBlockImg"></div>
+				</div>
+			</div>
+			<h2 class='textForCal'> Конструктор абонемента</h2>
+			<div class="calculator">
+				<h2>Калькулятор абонемента</h2>
+			
+				<div class="slider-container">
+					<label for="months">Количество месяцев:</label>
+					<input type="range" id="months" name="months" min="1" max="12" value="1">
+				</div>
+			
+				<div class="checkbox-container">
+					<label>
+						<input type="checkbox" id="freeze1" name="freeze">
+						Заморозка на 1 месяц (+2000 руб.)
+					</label>
+					<label>
+						<input type="checkbox" id="freeze2" name="freeze">
+						Заморозка на 2 месяца (+4000 руб.)
+					</label>
+					<label>
+						<input type="checkbox" id="freeze3" name="freeze">
+						Заморозка на 3 месяца (+5000 руб.)
+					</label>
+				</div>
+			
+				<div class="output">
+					Месяцев: <span id="monthsOutput">1</span>
+					<br>
+					Цена: <span id="priceOutput"></span>
+				</div>
+			
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class='main__block-footer'>
+				<div class="logo_footer"></div>
+				<div class="info_tel">
+					<p class='name_footer'>ФИТНЕС КЛУБ <br>AVRORA</br> </p>
+					<p class='tel_footer'>+7 (231) 556-66-66</p>
+				</div>
+				<div class="working_time-footer">
+					<div class="working_block">
+						<div class="first_work">
+							<p class='text_work-footer'>Часы работы клуба</p>
+							<div class="time__work-block">
+								<p class='date_work-footer'><b>Пн-Пт</b></p>
+								<p class='time_work-footer'><b>7:00-24:00</b></p>
+							</div>
+						</div>
+						<div class="second_work">
+							<div class="time__work-block">
+								<p class='date_work-footer'><b>Пн-Пт</b></p>
+								<p class='time_work-footer'><b>7:00-24:00</b></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="info_block_footer">
+					<div class="first_block_footer">
+						<a class="btn-footer" href="/sporteat.html">СПОРТПИТ</a>
+						<a class="btn-footer" href="/personal.html">ТРЕНЕРА</a>
+						<a class="btn-footer" href="/seasonticket.html">АБОНЕМЕНТЫ</a>
+						<a class="btn-footer" href="/aboutUs.html">О НАС</a>
+					</div>					
+					<div class="second_block_footer">
+						<img class='icon_footer' src="/img/free-icon-twitter-733635.png" alt="">
+						<img class='icon_footer' src="/img/free-icon-telegram-2111710.png" alt="">
+						<img class='icon_footer' src="/img/free-icon-instagram-1384015.png" alt="">
+						<img class='icon_footer' src="/img/free-icon-whatsapp-3670302.png" alt="">
+					</div>
+				</div>
+		</div>
+	</footer>
+	<script src='/main.js'></script>
+</body>
+</html>

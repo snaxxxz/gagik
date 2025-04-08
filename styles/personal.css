@@ -1,0 +1,201 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: #ffffff;
+	margin: 0 auto;
+	width: 1440px;
+}
+header{
+
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	margin: 0px 20px 0px 20px;
+}
+@font-face {
+	font-family: "Nunito";
+	src: url(/Шрифты/Nunito/Nunito-VariableFont_wght.ttf);
+	margin: 0 auto;
+}
+.logo{
+	width: 45px;
+	height: 45px;
+	margin-right: 130px;
+}
+.nav-menu{
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+	justify-content: center;
+}
+.nav-item {
+  margin-right: 30px;
+}
+
+.nav-item a {
+	font-family: "Nunito";
+  display: block; 
+  font-size: 19px;
+	color: #333; 
+  text-decoration: none; 
+  padding: 10px 15px; 
+  border-radius: 15px; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+
+/* .nav-item a:hover {
+  background-color: #222; 
+  color: #fff; 
+}
+
+
+.nav-item a:active {
+  background-color: #111; 
+} */
+
+
+.nav-item a.underline {
+  position: relative;
+  color: #333;
+}
+
+/* .nav-item a.underline::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #222;
+  transition: width 0.3s ease;
+}
+
+.nav-item a.underline:hover {
+  color: #222;
+  background-color: transparent; 
+}
+
+.nav-item a.underline:hover::after {
+  width: 100%; 
+} */
+ /* main */
+.mainBlock{
+	width: 1440px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.mainText{
+	font-family: "Nunito";
+	font-size:32px;
+}
+.personalBlockMain{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+}
+.itemPersonalBlock{
+	width: 250px;
+	height: 460px;
+	margin: 50px 20px 40px 20px
+}
+.namePersonal_personalBlockMain{
+	align-items: center;
+	text-align: center;
+	font-family: "Nunito";
+	font-size: 25px;
+}
+.jobPersonal_personalBlockMain{
+	font-family: "Nunito";
+}
+ /* footer */
+ footer{
+	font-family: "Nunito";
+	background-color: #a2a2a27b;
+	width: auto;
+	height: 300px;
+}
+.main__block-footer{
+	display: flex;
+	margin: 40px 40px 40px 40px;
+}
+.logo_footer{
+	background-image: url(/img/logo4.png);
+	background-size: contain;
+	width: 100px;
+	height: 100px;
+	margin-top: 50px;
+}
+.name_footer{
+	margin-top: 60px;
+	margin-left: 20px;
+	color: rgb(0, 0, 0);
+	font-size: 25px;
+	font-weight: 700;
+}
+.tel_footer{
+	padding-left: 20px;
+	color: rgb(0, 0, 0);
+	font-size: 17px;
+}
+.working_time-footer{
+	margin-top: 60px;
+	margin-left: 80px;
+}
+.text_work-footer{
+	color: black;
+}
+.date_work-footer{
+	color:  black;
+}
+.time_work-footer{
+	color: black;
+	padding-left: 5px
+}
+.info_block_footer{
+	display: flex;
+	flex-direction: column;
+	margin-left: 80px;
+	margin-top: 60px;
+}
+.first_block_footer{
+	margin-bottom: 20px;
+}
+.btn-footer{
+	margin-left: 50px;
+	color: black;
+	border:2px solid #000000;
+	padding: 5px 10px 5px 10px;
+  border-radius:10px;
+  color:#000000;
+  text-decoration:none;
+  cursor: pointer;
+  transition: all 0.5s;
+	width: max-content;
+	height: max-content;
+}
+.btn-footer:first-child{
+	margin-left: 40px;
+}
+/* .btn-footer:hover{
+  background-color: #000000;
+  color:#ffffff;  
+	transform: scale(1.1);
+} */
+.icon_footer{
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+.second_block_footer{
+	margin-left: 380px;
+	width: 240px;
+	display: flex;
+	justify-content: space-between;
+}

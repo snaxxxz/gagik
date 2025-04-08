@@ -1,0 +1,104 @@
+@media (max-width: 767px){
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	li{
+		list-style-type: none;
+	}
+	body{
+		margin: 0 auto;
+		width: 390px;
+		
+	}
+	header{
+		width: 390px;
+		display: flex;
+		align-items: center;
+		margin: 0 auto;
+		padding: 0;
+		margin-bottom: 20px;
+	}
+	.main_block-infoBlock{
+		display: block;
+		width: 390px;
+		height: 500px;
+		margin: 10px auto;
+		padding: 0;
+	}
+	.nav-menu{
+		display: none;
+	}
+	/* main */
+	.season_ticket--block{
+		width: 390px;
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+	}
+	.lastMainBlockImg{
+		display: none;
+	}
+	.textForCal{
+		margin: 0;
+	}
+	.calculator{
+		margin: 0;
+		margin-bottom: 15px;
+	}
+	/* footer */
+	footer{
+		font-family: "Nunito";
+		background-color: #a2a2a27b;
+		width: auto;
+		height: max-content;
+	}
+	.main__block-footer{
+		flex-direction: column;
+		width: 390px;
+		margin: 0 auto;
+	}
+	.logo_footer{
+		margin: 0;
+		width: 60px;
+		height: 60px;
+	}
+	.info_tel{
+		margin: 0px;
+	}
+	.name_footer{
+		margin: 0px;
+	}
+	.working_time-footer{
+		margin: 10px;
+	}
+	.info_block_footer{
+		margin: 0px;
+		width: 390px;
+	}
+	.btn-footer:first-child{
+		margin-left: 10px;
+	}
+	.btn-footer{
+		font-size: 10px;
+		margin: 0px;
+		margin-right: 10px;
+		width: max-content;
+	}
+
+	.first_block_footer{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.second_block_footer{
+		width: 390px;
+		justify-content: left;
+		margin: 0px;
+	}
+	.icon_footer{
+		width: 35px;
+		height: 35px;
+		cursor: pointer;
+		margin-left: 20px;
+	}
+}

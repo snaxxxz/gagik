@@ -7,7 +7,7 @@
 		list-style-type: none;
 	}
 	body{
-		margin: 0;
+		margin: 0 auto;
 		width: 390px;
 		height: max-content;
 	}
@@ -156,5 +156,58 @@
 		width: max-content;
 	}
 	/* footer */
-	
+	footer{
+		font-family: "Nunito";
+		background-color: #a2a2a27b;
+		width: auto;
+		height: max-content;
+	}
+	.main__block-footer{
+		flex-direction: column;
+		width: 390px;
+		margin: 0 auto;
+	}
+	.logo_footer{
+		margin: 0;
+		width: 60px;
+		height: 60px;
+	}
+	.info_tel{
+		margin: 0px;
+	}
+	.name_footer{
+		margin: 0px;
+	}
+	.working_time-footer{
+		margin: 10px;
+	}
+	.info_block_footer{
+		margin: 0px;
+		width: 390px;
+	}
+	.btn-footer:first-child{
+		margin-left: 10px;
+	}
+	.btn-footer{
+		font-size: 10px;
+		margin: 0px;
+		margin-right: 10px;
+		width: max-content;
+	}
+
+	.first_block_footer{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.second_block_footer{
+		width: 390px;
+		justify-content: left;
+		margin: 0px;
+	}
+	.icon_footer{
+		width: 35px;
+		height: 35px;
+		cursor: pointer;
+		margin-left: 20px;
+	}
 }
