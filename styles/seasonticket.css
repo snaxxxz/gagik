@@ -49,7 +49,7 @@ header{
 }
 
 
-/* .nav-item a:hover {
+.nav-item a:hover {
   background-color: #222; 
   color: #fff; 
 }
@@ -57,7 +57,7 @@ header{
 
 .nav-item a:active {
   background-color: #111; 
-} */
+}
 
 
 .nav-item a.underline {
@@ -65,7 +65,7 @@ header{
   color: #333;
 }
 
-/* .nav-item a.underline::after {
+.nav-item a.underline::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -83,7 +83,7 @@ header{
 
 .nav-item a.underline:hover::after {
   width: 100%; 
-} */
+}
  /* main */
  /* season_ticket */
 .season_ticket--block{
@@ -189,12 +189,12 @@ header{
 	transition: ease 500ms;
 
 }
-/* .price_btn:hover{
+.price_btn:hover{
 	color: white;
 	background-color: black;
 	transition: ease 500ms;
 	cursor: pointer;
-} */
+}
 .season_block--item:nth-child(2) .botton_block-season .price_btn{
 	background-color: rgb(192, 79, 124);
 }
@@ -381,11 +381,11 @@ footer{
 .btn-footer:first-child{
 	margin-left: 40px;
 }
-/* .btn-footer:hover{
+.btn-footer:hover{
   background-color: #000000;
   color:#ffffff;  
 	transform: scale(1.1);
-} */
+}
 .icon_footer{
 	width: 40px;
 	height: 40px;
